@@ -42,8 +42,9 @@ const projects = [
     chapter: "Chương 5",
     title: "Sáng tạo nội dung số",
     objective: "Phát triển năng lực tạo nội dung số đa dạng phục vụ học tập và truyền thông.",
-    content: "Thiết kế và tạo các sản phẩm số như infographic, video, presentation.",
+    content: "Báo cáo AI Presentation - thiết kế và tạo các sản phẩm số như infographic, video, presentation.",
     skills: "Sáng tạo nội dung, sử dụng công cụ thiết kế, tư duy thẩm mỹ.",
+    docLink: "/files/bao-cao-ai-presentation.docx",
   },
   {
     number: 6,
