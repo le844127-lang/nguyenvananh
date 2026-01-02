@@ -1,4 +1,4 @@
-import { Target, BookOpen, Briefcase, User, GraduationCap, School, Mail } from "lucide-react";
+import { Target, BookOpen, Briefcase, User, GraduationCap, School, Mail, IdCard, Building } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -24,13 +24,31 @@ const AboutSection = () => {
               <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-4">
                 Nguyễn Vân Anh
               </h3>
-              <div className="grid sm:grid-cols-3 gap-4">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="flex items-center gap-3 justify-center md:justify-start">
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <GraduationCap className="w-5 h-5 text-primary" />
+                    <IdCard className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p className="text-xs font-body text-muted-foreground uppercase tracking-wider">Ngành học</p>
+                    <p className="text-xs font-body text-muted-foreground uppercase tracking-wider">Mã sinh viên</p>
+                    <p className="font-body font-medium text-foreground">25050050</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 justify-center md:justify-start">
+                  <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                    <GraduationCap className="w-5 h-5 text-accent" />
+                  </div>
+                  <div>
+                    <p className="text-xs font-body text-muted-foreground uppercase tracking-wider">Ngành</p>
+                    <p className="font-body font-medium text-foreground">Kinh tế</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 justify-center md:justify-start">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <Building className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-xs font-body text-muted-foreground uppercase tracking-wider">Khoa</p>
                     <p className="font-body font-medium text-foreground">Kinh tế Chính trị</p>
                   </div>
                 </div>
@@ -43,7 +61,7 @@ const AboutSection = () => {
                     <p className="font-body font-medium text-foreground">ĐH Kinh tế - ĐHQGHN</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-3 justify-center md:justify-start">
+                <div className="flex items-center gap-3 justify-center md:justify-start sm:col-span-2 lg:col-span-2">
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                     <Mail className="w-5 h-5 text-primary" />
                   </div>
