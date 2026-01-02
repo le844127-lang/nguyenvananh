@@ -24,8 +24,9 @@ const projects = [
     chapter: "Chương 3",
     title: "Tổng quan về trí tuệ nhân tạo",
     objective: "Hiểu khái niệm, ứng dụng và tác động của trí tuệ nhân tạo trong đời sống.",
-    content: "Khám phá các ứng dụng AI phổ biến, thảo luận về cơ hội và thách thức của AI.",
+    content: "Báo cáo so sánh ChatGPT và Gemini - khám phá các ứng dụng AI phổ biến, thảo luận về cơ hội và thách thức của AI.",
     skills: "Hiểu biết về công nghệ AI, tư duy về đạo đức công nghệ.",
+    docLink: "/files/bao-cao-so-sanh-chatgpt-vs-gemini.docx",
   },
   {
     number: 4,
