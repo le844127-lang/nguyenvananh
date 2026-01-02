@@ -1,4 +1,4 @@
-import { Target, BookOpen, Briefcase } from "lucide-react";
+import { Target, BookOpen, Briefcase, User, GraduationCap, School, Mail } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -12,6 +12,49 @@ const AboutSection = () => {
             Về bản thân tôi
           </h2>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
+        </div>
+
+        {/* Personal Info Card */}
+        <div className="card-gradient rounded-2xl p-8 shadow-card border border-border/50 mb-12">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="w-32 h-32 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 border-4 border-primary/20">
+              <User className="w-16 h-16 text-primary" />
+            </div>
+            <div className="text-center md:text-left flex-1">
+              <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-4">
+                Nguyễn Vân Anh
+              </h3>
+              <div className="grid sm:grid-cols-3 gap-4">
+                <div className="flex items-center gap-3 justify-center md:justify-start">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <GraduationCap className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-xs font-body text-muted-foreground uppercase tracking-wider">Ngành học</p>
+                    <p className="font-body font-medium text-foreground">Kinh tế Chính trị</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 justify-center md:justify-start">
+                  <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                    <School className="w-5 h-5 text-accent" />
+                  </div>
+                  <div>
+                    <p className="text-xs font-body text-muted-foreground uppercase tracking-wider">Trường</p>
+                    <p className="font-body font-medium text-foreground">ĐH Kinh tế - ĐHQGHN</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 justify-center md:justify-start">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <Mail className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-xs font-body text-muted-foreground uppercase tracking-wider">Email</p>
+                    <p className="font-body font-medium text-foreground text-sm">eirzch0d32@1mailapi.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Goals Grid */}
