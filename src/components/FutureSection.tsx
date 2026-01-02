@@ -58,7 +58,7 @@ const FutureSection = () => {
 
               <div className="mt-8 pt-8 border-t border-border/50">
                 <p className="font-body text-muted-foreground italic text-center">
-                  "Portfolio này phản ánh quá trình học tập, rèn luyện kỹ năng số và sự phát triển cá nhân của tôi trong suốt học phần."
+                  "Portfolio này phản ánh quá trình học tập, rèn luyện năng lực công nghệ số và sự phát triển cá nhân của tôi trong suốt học phần."
                 </p>
               </div>
             </div>

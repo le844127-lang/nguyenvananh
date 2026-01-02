@@ -27,7 +27,7 @@ const ConclusionSection = () => {
             </div>
             <div className="space-y-4 font-body text-muted-foreground">
               <p>
-                Học phần Kỹ năng số đã mang đến cho tôi những trải nghiệm học tập thú vị và bổ ích. Tôi đã được tiếp cận với nhiều công cụ và phương pháp làm việc hiện đại trong môi trường số.
+                Học phần Công nghệ số đã mang đến cho tôi những trải nghiệm học tập thú vị và bổ ích. Tôi đã được tiếp cận với nhiều công cụ và phương pháp làm việc hiện đại trong môi trường số.
               </p>
               <p>
                 Quá trình học tập giúp tôi nhận ra tầm quan trọng của việc không ngừng cập nhật kiến thức công nghệ để thích ứng với sự phát triển của xã hội.

@@ -10,7 +10,7 @@ const Footer = () => {
               Nguyễn Vân Anh
             </h3>
             <p className="font-body text-background/60 mb-6 max-w-md">
-              Portfolio cá nhân - Học phần Kỹ năng số
+              Portfolio cá nhân - Học phần Công nghệ số
             </p>
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-background/60">
