@@ -7,6 +7,7 @@ interface ProjectCardProps {
   objective: string;
   content: string;
   skills: string;
+  documentLink?: string;
   delay?: number;
 }
 
@@ -17,6 +18,7 @@ const ProjectCard = ({
   objective,
   content,
   skills,
+  documentLink,
   delay = 0,
 }: ProjectCardProps) => {
   return (
@@ -69,18 +71,22 @@ const ProjectCard = ({
           Sản phẩm cuối cùng
         </p>
         <div className="flex flex-wrap gap-2">
-          <button className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-primary bg-primary/10 rounded-full hover:bg-primary/20 transition-colors">
-            <FileText size={14} />
-            PDF
-          </button>
-          <button className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-accent bg-accent/10 rounded-full hover:bg-accent/20 transition-colors">
-            <Image size={14} />
-            Hình ảnh
-          </button>
-          <button className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-muted-foreground bg-secondary rounded-full hover:bg-secondary/80 transition-colors">
-            <ExternalLink size={14} />
-            Link
-          </button>
+          {documentLink ? (
+            <a 
+              href={documentLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-primary bg-primary/10 rounded-full hover:bg-primary/20 transition-colors"
+            >
+              <FileText size={14} />
+              Tài liệu
+            </a>
+          ) : (
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-muted-foreground bg-secondary/50 rounded-full">
+              <FileText size={14} />
+              Chưa có tài liệu
+            </span>
+          )}
         </div>
       </div>
     </div>
