@@ -8,6 +8,7 @@ const projects = [
     objective: "Tìm hiểu cấu tạo, chức năng của máy tính và các thiết bị ngoại vi phổ biến trong học tập và công việc.",
     content: "Nghiên cứu các thành phần phần cứng, phần mềm cơ bản và cách thức hoạt động của hệ thống máy tính.",
     skills: "Nhận biết và phân loại các thiết bị công nghệ, hiểu nguyên lý hoạt động cơ bản.",
+    docLink: "/files/su-dung-may-tinh-va-thiet-bi-ngoai-vi.docx",
   },
   {
     number: 2,
