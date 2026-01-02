@@ -1,4 +1,4 @@
-import { ExternalLink, FileText, Image, Video } from "lucide-react";
+import { FileText, FileType } from "lucide-react";
 
 interface ProjectCardProps {
   number: number;
@@ -8,6 +8,7 @@ interface ProjectCardProps {
   content: string;
   skills: string;
   pdfLink?: string;
+  docLink?: string;
   delay?: number;
 }
 
@@ -19,6 +20,7 @@ const ProjectCard = ({
   content,
   skills,
   pdfLink,
+  docLink,
   delay = 0,
 }: ProjectCardProps) => {
   return (
@@ -71,7 +73,7 @@ const ProjectCard = ({
           Sản phẩm cuối cùng
         </p>
         <div className="flex flex-wrap gap-2">
-          {pdfLink ? (
+          {pdfLink && (
             <a 
               href={pdfLink} 
               target="_blank" 
@@ -81,7 +83,19 @@ const ProjectCard = ({
               <FileText size={14} />
               Xem PDF
             </a>
-          ) : (
+          )}
+          {docLink && (
+            <a 
+              href={docLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-accent bg-accent/10 rounded-full hover:bg-accent/20 transition-colors"
+            >
+              <FileType size={14} />
+              Xem DOCX
+            </a>
+          )}
+          {!pdfLink && !docLink && (
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-muted-foreground bg-secondary/50 rounded-full">
               <FileText size={14} />
               Chưa có
