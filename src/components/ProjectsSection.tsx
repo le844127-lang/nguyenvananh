@@ -51,8 +51,9 @@ const projects = [
     chapter: "Chương 6",
     title: "An toàn và liêm chính học thuật trong môi trường số",
     objective: "Nắm vững nguyên tắc an toàn thông tin và đạo đức học thuật trong môi trường số.",
-    content: "Tìm hiểu về bảo mật thông tin cá nhân, trích dẫn đúng quy chuẩn, tránh đạo văn.",
+    content: "Báo cáo sử dụng AI có trách nhiệm trong học thuật - tìm hiểu về bảo mật thông tin cá nhân, trích dẫn đúng quy chuẩn, tránh đạo văn.",
     skills: "Bảo mật thông tin, tuân thủ liêm chính học thuật, trích dẫn khoa học.",
+    docLink: "/files/bao-cao-su-dung-ai-co-trach-nhiem-trong-hoc-thuat.docx",
   },
 ];
 
