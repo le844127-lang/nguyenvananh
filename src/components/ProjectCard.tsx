@@ -1,4 +1,4 @@
-import { ExternalLink, FileText, Image, Download } from "lucide-react";
+import { ExternalLink, FileText, Image, Video } from "lucide-react";
 
 interface ProjectCardProps {
   number: number;
@@ -7,7 +7,6 @@ interface ProjectCardProps {
   objective: string;
   content: string;
   skills: string;
-  documentLink?: string;
   delay?: number;
 }
 
@@ -18,7 +17,6 @@ const ProjectCard = ({
   objective,
   content,
   skills,
-  documentLink,
   delay = 0,
 }: ProjectCardProps) => {
   return (
@@ -71,23 +69,18 @@ const ProjectCard = ({
           Sản phẩm cuối cùng
         </p>
         <div className="flex flex-wrap gap-2">
-          {documentLink ? (
-            <a
-              href={documentLink}
-              download
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-primary-foreground bg-primary rounded-full hover:bg-primary/90 transition-colors"
-            >
-              <Download size={14} />
-              Tải file Word
-            </a>
-          ) : (
-            <>
-              <button className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-muted-foreground bg-secondary rounded-full opacity-50 cursor-not-allowed">
-                <FileText size={14} />
-                Chưa có file
-              </button>
-            </>
-          )}
+          <button className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-primary bg-primary/10 rounded-full hover:bg-primary/20 transition-colors">
+            <FileText size={14} />
+            PDF
+          </button>
+          <button className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-accent bg-accent/10 rounded-full hover:bg-accent/20 transition-colors">
+            <Image size={14} />
+            Hình ảnh
+          </button>
+          <button className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-muted-foreground bg-secondary rounded-full hover:bg-secondary/80 transition-colors">
+            <ExternalLink size={14} />
+            Link
+          </button>
         </div>
       </div>
     </div>
