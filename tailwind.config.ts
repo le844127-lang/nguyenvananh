@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["'Playfair Display'", "Georgia", "serif"],
-        body: ["'Source Sans 3'", "system-ui", "sans-serif"],
+        display: ["'Montserrat'", "system-ui", "sans-serif"],
+        body: ["'Be Vietnam Pro'", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
