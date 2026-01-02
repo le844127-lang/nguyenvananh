@@ -14,8 +14,9 @@ const projects = [
     chapter: "Chương 2",
     title: "Khai thác dữ liệu và thông tin",
     objective: "Phát triển kỹ năng tìm kiếm, đánh giá và sử dụng thông tin một cách hiệu quả.",
-    content: "Thực hành các phương pháp tìm kiếm nâng cao, đánh giá độ tin cậy của nguồn thông tin.",
+    content: "Báo cáo tìm kiếm và đánh giá thông tin học thuật về chủ đề: Tối ưu hóa Hiệu suất và Giải thích của Mô hình Học Sâu trong Phân tích Phân tử Protein.",
     skills: "Tư duy phản biện, kỹ năng nghiên cứu và đánh giá thông tin.",
+    pdfLink: "/files/25050050-nguyen-van-anh.pdf",
   },
   {
     number: 3,
