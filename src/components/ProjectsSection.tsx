@@ -70,7 +70,7 @@ const ProjectsSection = () => {
           </h2>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full mb-6" />
           <p className="font-body text-muted-foreground max-w-2xl mx-auto">
-            Tổng hợp các dự án học tập trong học phần Kỹ năng số, thể hiện quá trình rèn luyện và phát triển năng lực công nghệ.
+            Tổng hợp các dự án học tập trong học phần Công nghệ số, thể hiện quá trình rèn luyện và phát triển năng lực công nghệ.
           </p>
         </div>
 

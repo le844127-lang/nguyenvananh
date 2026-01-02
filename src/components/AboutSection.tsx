@@ -90,15 +90,15 @@ const AboutSection = () => {
             <ul className="space-y-4 font-body text-muted-foreground">
               <li className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2.5 flex-shrink-0" />
-                <span>Nắm vững các kiến thức và kỹ năng số cơ bản trong học phần, đặc biệt là khai thác thông tin, làm việc trong môi trường số và sử dụng công nghệ một cách hiệu quả.</span>
+                <span>Nắm vững kiến thức và năng lực công nghệ số cơ bản, đặc biệt là khai thác thông tin, làm việc trong môi trường số và sử dụng công nghệ hiệu quả.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2.5 flex-shrink-0" />
-                <span>Hoàn thành đầy đủ các bài tập, dự án học tập với chất lượng tốt, đảm bảo đúng yêu cầu và có tính ứng dụng thực tiễn.</span>
+                <span>Hoàn thành đầy đủ các bài tập và dự án học tập với chất lượng cao, đảm bảo yêu cầu và có tính ứng dụng thực tiễn.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2.5 flex-shrink-0" />
-                <span>Từng bước hình thành tư duy học tập chủ động, biết tự tìm kiếm, chọn lọc và đánh giá thông tin phục vụ cho việc học tập và nghiên cứu.</span>
+                <span>Hình thành tư duy học tập chủ động, biết tự tìm kiếm, chọn lọc và đánh giá thông tin phục vụ học tập và nghiên cứu.</span>
               </li>
             </ul>
           </div>
@@ -116,15 +116,15 @@ const AboutSection = () => {
             <ul className="space-y-4 font-body text-muted-foreground">
               <li className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2.5 flex-shrink-0" />
-                <span>Vận dụng các kỹ năng số đã học vào quá trình học tập ngành Kinh tế Chính trị và các hoạt động học thuật sau này.</span>
+                <span>Vận dụng năng lực công nghệ số vào học tập ngành Kinh tế Chính trị và các hoạt động học thuật.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2.5 flex-shrink-0" />
-                <span>Phát triển năng lực sử dụng công nghệ một cách có trách nhiệm, an toàn và tuân thủ liêm chính học thuật.</span>
+                <span>Phát triển năng lực sử dụng công nghệ có trách nhiệm, an toàn và tuân thủ liêm chính học thuật.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2.5 flex-shrink-0" />
-                <span>Xây dựng nền tảng kỹ năng cần thiết để thích ứng với môi trường làm việc số trong tương lai.</span>
+                <span>Xây dựng nền tảng năng lực cần thiết để thích ứng với môi trường làm việc số trong tương lai.</span>
               </li>
             </ul>
           </div>
@@ -143,19 +143,19 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 gap-6 font-body text-muted-foreground">
             <div className="flex items-start gap-3">
               <span className="w-8 h-8 rounded-lg bg-secondary flex items-center justify-center text-primary font-semibold flex-shrink-0">1</span>
-              <span>Thể hiện quá trình học tập, rèn luyện và phát triển các kỹ năng số thông qua từng bài tập, dự án cụ thể.</span>
+              <span>Thể hiện quá trình học tập, rèn luyện và phát triển năng lực công nghệ số thông qua từng bài tập và dự án.</span>
             </div>
             <div className="flex items-start gap-3">
               <span className="w-8 h-8 rounded-lg bg-secondary flex items-center justify-center text-primary font-semibold flex-shrink-0">2</span>
-              <span>Lưu trữ và hệ thống hóa các sản phẩm học tập cá nhân một cách khoa học, dễ theo dõi và truy cập.</span>
+              <span>Lưu trữ và hệ thống hóa các sản phẩm học tập cá nhân một cách khoa học, dễ theo dõi.</span>
             </div>
             <div className="flex items-start gap-3">
               <span className="w-8 h-8 rounded-lg bg-secondary flex items-center justify-center text-primary font-semibold flex-shrink-0">3</span>
-              <span>Minh chứng cho năng lực vận dụng kiến thức đã học vào thực tiễn học tập.</span>
+              <span>Minh chứng cho năng lực vận dụng kiến thức vào thực tiễn học tập.</span>
             </div>
             <div className="flex items-start gap-3">
               <span className="w-8 h-8 rounded-lg bg-secondary flex items-center justify-center text-primary font-semibold flex-shrink-0">4</span>
-              <span>Làm cơ sở để tự đánh giá sự tiến bộ của bản thân và thuận tiện trong việc chia sẻ kết quả học tập.</span>
+              <span>Làm cơ sở để tự đánh giá sự tiến bộ và thuận tiện chia sẻ kết quả học tập.</span>
             </div>
           </div>
         </div>
