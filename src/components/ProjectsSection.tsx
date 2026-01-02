@@ -33,8 +33,9 @@ const projects = [
     chapter: "Chương 4",
     title: "Giao tiếp và hợp tác trong môi trường số",
     objective: "Rèn luyện kỹ năng giao tiếp, làm việc nhóm trực tuyến hiệu quả.",
-    content: "Sử dụng các công cụ cộng tác số, thực hành giao tiếp chuyên nghiệp qua email và các nền tảng trực tuyến.",
+    content: "Báo cáo cá nhân về giao tiếp và hợp tác trong môi trường số - sử dụng các công cụ cộng tác số, thực hành giao tiếp chuyên nghiệp.",
     skills: "Làm việc nhóm online, giao tiếp số chuyên nghiệp, sử dụng công cụ cộng tác.",
+    docLink: "/files/bao-cao-ca-nhan.docx",
   },
   {
     number: 5,
