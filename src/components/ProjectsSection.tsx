@@ -8,7 +8,7 @@ const projects = [
     objective: "Tìm hiểu cấu tạo, chức năng của máy tính và các thiết bị ngoại vi phổ biến trong học tập và công việc.",
     content: "Nghiên cứu các thành phần phần cứng, phần mềm cơ bản và cách thức hoạt động của hệ thống máy tính.",
     skills: "Nhận biết và phân loại các thiết bị công nghệ, hiểu nguyên lý hoạt động cơ bản.",
-    docLink: "/files/su-dung-may-tinh-va-thiet-bi-ngoai-vi.docx",
+    docLink: "./files/su-dung-may-tinh-va-thiet-bi-ngoai-vi.docx",
   },
   {
     number: 2,
@@ -17,7 +17,7 @@ const projects = [
     objective: "Phát triển kỹ năng tìm kiếm, đánh giá và sử dụng thông tin một cách hiệu quả.",
     content: "Báo cáo tìm kiếm và đánh giá thông tin học thuật về chủ đề: Tối ưu hóa Hiệu suất và Giải thích của Mô hình Học Sâu trong Phân tích Phân tử Protein.",
     skills: "Tư duy phản biện, kỹ năng nghiên cứu và đánh giá thông tin.",
-    pdfLink: "/files/25050050-nguyen-van-anh.pdf",
+    pdfLink: "./files/25050050-nguyen-van-anh.pdf",
   },
   {
     number: 3,
@@ -26,7 +26,7 @@ const projects = [
     objective: "Hiểu khái niệm, ứng dụng và tác động của trí tuệ nhân tạo trong đời sống.",
     content: "Báo cáo so sánh ChatGPT và Gemini - khám phá các ứng dụng AI phổ biến, thảo luận về cơ hội và thách thức của AI.",
     skills: "Hiểu biết về công nghệ AI, tư duy về đạo đức công nghệ.",
-    docLink: "/files/bao-cao-so-sanh-chatgpt-vs-gemini.docx",
+    docLink: "./files/bao-cao-so-sanh-chatgpt-vs-gemini.docx",
   },
   {
     number: 4,
@@ -35,7 +35,7 @@ const projects = [
     objective: "Rèn luyện kỹ năng giao tiếp, làm việc nhóm trực tuyến hiệu quả.",
     content: "Báo cáo cá nhân về giao tiếp và hợp tác trong môi trường số - sử dụng các công cụ cộng tác số, thực hành giao tiếp chuyên nghiệp.",
     skills: "Làm việc nhóm online, giao tiếp số chuyên nghiệp, sử dụng công cụ cộng tác.",
-    docLink: "/files/bao-cao-ca-nhan.docx",
+    docLink: "./files/bao-cao-ca-nhan.docx",
   },
   {
     number: 5,
@@ -44,7 +44,7 @@ const projects = [
     objective: "Phát triển năng lực tạo nội dung số đa dạng phục vụ học tập và truyền thông.",
     content: "Báo cáo AI Presentation - thiết kế và tạo các sản phẩm số như infographic, video, presentation.",
     skills: "Sáng tạo nội dung, sử dụng công cụ thiết kế, tư duy thẩm mỹ.",
-    docLink: "/files/bao-cao-ai-presentation.docx",
+    docLink: "./files/bao-cao-ai-presentation.docx",
   },
   {
     number: 6,
@@ -53,7 +53,7 @@ const projects = [
     objective: "Nắm vững nguyên tắc an toàn thông tin và đạo đức học thuật trong môi trường số.",
     content: "Báo cáo sử dụng AI có trách nhiệm trong học thuật - tìm hiểu về bảo mật thông tin cá nhân, trích dẫn đúng quy chuẩn, tránh đạo văn.",
     skills: "Bảo mật thông tin, tuân thủ liêm chính học thuật, trích dẫn khoa học.",
-    docLink: "/files/bao-cao-su-dung-ai-co-trach-nhiem-trong-hoc-thuat.docx",
+    docLink: "./files/bao-cao-su-dung-ai-co-trach-nhiem-trong-hoc-thuat.docx",
   },
 ];
 
