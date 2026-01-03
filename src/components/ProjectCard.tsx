@@ -23,6 +23,10 @@ const ProjectCard = ({
   docLink,
   delay = 0,
 }: ProjectCardProps) => {
+  const baseUrl = import.meta.env.BASE_URL ?? "/";
+  const normalizedBase = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+  const withBase = (p: string) => `${normalizedBase}${p.replace(/^\//, "")}`;
+
   return (
     <div
       className="group card-gradient rounded-2xl p-6 md:p-8 shadow-card hover:shadow-glow transition-all duration-500 border border-border/50 hover:border-primary/30 hover:-translate-y-1"
@@ -51,14 +55,14 @@ const ProjectCard = ({
           </p>
           <p className="font-body text-sm text-foreground/80">{objective}</p>
         </div>
-        
+
         <div>
           <p className="text-xs font-body font-semibold uppercase tracking-wider text-muted-foreground mb-2">
             Nội dung thực hiện
           </p>
           <p className="font-body text-sm text-foreground/80">{content}</p>
         </div>
-        
+
         <div>
           <p className="text-xs font-body font-semibold uppercase tracking-wider text-muted-foreground mb-2">
             Kỹ năng đạt được
@@ -74,9 +78,9 @@ const ProjectCard = ({
         </p>
         <div className="flex flex-wrap gap-2">
           {pdfLink && (
-            <a 
-              href={pdfLink} 
-              target="_blank" 
+            <a
+              href={withBase(pdfLink)}
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-primary bg-primary/10 rounded-full hover:bg-primary/20 transition-colors"
             >
@@ -85,9 +89,9 @@ const ProjectCard = ({
             </a>
           )}
           {docLink && (
-            <a 
-              href={docLink} 
-              target="_blank" 
+            <a
+              href={withBase(docLink)}
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-body font-medium text-accent bg-accent/10 rounded-full hover:bg-accent/20 transition-colors"
             >
