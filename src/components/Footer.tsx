@@ -21,10 +21,6 @@ const Footer = () => {
                 <MapPin size={18} />
                 <span className="font-body text-sm">Đại học Kinh tế - ĐHQGHN</span>
               </div>
-              <div className="flex items-center gap-3 text-background/60">
-                <Mail size={18} />
-                <span className="font-body text-sm">eirzch0d32@1mailapi.com</span>
-              </div>
             </div>
           </div>
           
