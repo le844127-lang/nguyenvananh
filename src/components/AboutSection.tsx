@@ -1,4 +1,4 @@
-import { Target, BookOpen, Briefcase, User, GraduationCap, School, Mail, IdCard, Building } from "lucide-react";
+import { Target, BookOpen, Briefcase, User, GraduationCap, School, IdCard, Building } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -59,15 +59,6 @@ const AboutSection = () => {
                   <div>
                     <p className="text-xs font-body text-muted-foreground uppercase tracking-wider">Trường</p>
                     <p className="font-body font-medium text-foreground">ĐH Kinh tế - ĐHQGHN</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3 justify-center md:justify-start sm:col-span-2 lg:col-span-2">
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <Mail className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="text-xs font-body text-muted-foreground uppercase tracking-wider">Email</p>
-                    <p className="font-body font-medium text-foreground text-sm">eirzch0d32@1mailapi.com</p>
                   </div>
                 </div>
               </div>
